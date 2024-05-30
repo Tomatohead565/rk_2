@@ -15,7 +15,9 @@ jobs:
           cmake -B build
           cmake --build build
       - name: Build Main
-        run: build/main
+        run: |
+          cd main
+          build/main
       
       - name: Test
         run: |
