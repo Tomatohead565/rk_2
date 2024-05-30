@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "decorator.cpp"
+#include "header.h"
 #include <string>
 
 TEST(DecoratorTest, SimpleDrink) {
