@@ -1,6 +1,7 @@
 // Decorator design pattern
 
 #include <iostream>
+#include "header.h"
 
 int main() {
   /**
